@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.develga.backgroundmusicplayer.sample.BackgroundMusicActivity">
+
+    <TextView
+        android:id="@+id/status_textview"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#3000"
+        android:gravity="center"
+        tools:text="aaa.mp3 volume:0.5"/>
+
+    <TextView
+        android:id="@+id/open_background_music_activity_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?selectableItemBackground"
+        android:gravity="center"
+        android:text="Open Background Music Activity"/>
+
+    <TextView
+        android:id="@+id/open_small_background_music_activity_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?selectableItemBackground"
+        android:gravity="center"
+        android:text="Open Small Background Music Activity"/>
+
+    <TextView
+        android:id="@+id/open_no_background_music_activity_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?selectableItemBackground"
+        android:gravity="center"
+        android:text="Open No Background Music Activity"/>
+
+    <TextView
+        android:id="@+id/open_background_music_2_activity_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?selectableItemBackground"
+        android:gravity="center"
+        android:text="Open Background Music 2 Activity"/>
+
+</LinearLayout>
